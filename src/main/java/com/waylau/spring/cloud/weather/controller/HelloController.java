@@ -14,6 +14,7 @@ public class HelloController {
 	//@RequestMapping("/hello")
 	@GetMapping("/hello")
 	public String hello() {
+		System.out.println("test");
 		return "Hello World!";
 	}
 }
